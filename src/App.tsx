@@ -1,6 +1,5 @@
 import "./App.css";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
 
 function App() {
   const [login, setLogin] = useState<string>("");
